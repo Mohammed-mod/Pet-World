@@ -1,0 +1,171 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color:#FF0043;
+    color: #FFF;
+    padding: 10px 20px;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contact-info p {
+    font-size: 12px;
+  }
+  
+  .icons i {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD700;
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  /* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #FFD700; /* Yellow background for the navbar */
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar stays on top */
+  }
+  
+  .navbar a {
+    color: #333; /* Dark color for contrast */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    color: #FFF;
+    background-color: #FF0043; /* Primary brand color on hover */
+  }
+  
+  /* Responsive Navbar for Mobile */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar a {
+      padding: 8px 15px;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+  }
+  
+  
+  /* Styling for Promo Text Section */
+.promo-text {
+    max-width: 400px;
+    margin-left: 20px;
+    color: #333; /* Dark text color for contrast */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .promo-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF0043; /* Bold primary color for the title */
+    margin-bottom: 10px;
+  }
+  
+  .promo-text p {
+    font-size: 18px;
+    color: #555; /* Slightly lighter color for subtext */
+    margin-bottom: 20px;
+  }
+  
+  /* Service Options Button Styles */
+  .service-options button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFD700; /* Yellow background for service options */
+    color: #333; /* Dark text for readability */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-options button:hover {
+    background-color: #FF0043; /* Change color on hover */
+    color: #FFF;
+  }
+  
+  /* Call-to-Action Button */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FF0043; /* Primary brand color */
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #D10036; /* Darker shade for hover effect */
+  }
+  
+  /* Promo Section */
+  .promo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .promo img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .promo-text {
+    max-width: 400px;
+    margin-left: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0043;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
